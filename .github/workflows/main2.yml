@@ -48,7 +48,7 @@ jobs:
       # This is a composite GitHub Action (Linux runner) 
       # for deploying repository content to remote server
       - name: SFTP-Deploy-Action
-        uses: milanmk/actions-file-deployer@master
+        uses: milanmk/actions-file-deployer@main
         with:
           remote-protocol: "sftp"
           
