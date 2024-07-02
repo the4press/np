@@ -14,5 +14,5 @@ jobs:
         server: sftp://180.222.138.9
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: SFTP
+        protocol: ftps
         port: ${{ secrets.FTP_PORT }}
