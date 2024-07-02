@@ -43,8 +43,8 @@ jobs:
       - name: SFTP-Deploy-Action
         uses: milanmk/actions-file-deployer@master
         with:
-          remote-protocol: sftp
-
+          remote-protocol: "sftp"
+          
           # Credentials for SFTP access to server using GitHub secrets
           remote-host: 'sftp://180.222.138.9'
           remote-user: 'azbftp01'
