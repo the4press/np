@@ -63,4 +63,4 @@ jobs:
           remote-path: "/main"
 
           # Port for SFTP access to server
-          # remote-port: 443
+          remote-port: 443
