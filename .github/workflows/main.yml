@@ -15,4 +15,4 @@ jobs:
         username: azbftp01
         password: Pah)P[&aC1-cWT#
         protocol: sftp
-        port: 443 # todo replace with your web hosts ftps port
+        port: 443
