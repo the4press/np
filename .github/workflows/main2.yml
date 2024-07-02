@@ -51,7 +51,7 @@ jobs:
           remote-password: Pah)P[&aC1-cWT#
 
           # Path for specific folder on server for files deployment
-          remote-path: /
+          remote-path: /main
 
           # Port for SFTP access to server
           remote-port: 443
