@@ -14,5 +14,4 @@ jobs:
         server: sftp://merchant.azizibank.af
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: ftps
         port: ${{ secrets.FTP_PORT }}
