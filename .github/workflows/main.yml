@@ -15,4 +15,3 @@ jobs:
         port: '443'
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        sftp_only: true
