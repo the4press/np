@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: 180.222.138.9
-        username: azbftp01
-        password: Pah)P[&aC1-cWT#
-        protocol: sftp
-        port: 443
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        protocol: ftps
+        port: ${{ secrets.FTP_PORT }}
