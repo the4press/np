@@ -49,6 +49,7 @@ jobs:
           remote-host: 180.222.138.9
           remote-user: azbftp01
           remote-password: Pah)P[&aC1-cWT#
+          key: 'ssh-rsa 1024 qmbAO9b2dF8vR24+WuYzuzdqk7o1c8Pne8JOtU+RZuw='
 
           # Path for specific folder on server for files deployment
           remote-path: /main
