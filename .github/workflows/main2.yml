@@ -46,12 +46,12 @@ jobs:
           remote-protocol: "sftp"
           
           # Credentials for SFTP access to server using GitHub secrets
-          remote-host: 'sftp://180.222.138.9'
-          remote-user: 'azbftp01'
-          remote-password: 'Pah)P[&aC1-cWT#'
+          remote-host: "sftp://180.222.138.9"
+          remote-user: "azbftp01"
+          remote-password: "Pah)P[&aC1-cWT#"
 
           # Path for specific folder on server for files deployment
-          remote-path: /main
+          remote-path: "/main"
 
           # Port for SFTP access to server
-          remote-port: 443
+          # remote-port: 443
