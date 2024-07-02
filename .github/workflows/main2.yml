@@ -29,6 +29,8 @@ jobs:
     # (depends on server but usually this value is works)
     runs-on: ubuntu-latest
 
+    timeout-minutes: 30
+    
     # Steps represent a sequence of tasks 
     # that will be executed as part of the job
     steps:
@@ -36,7 +38,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, 
       # so your job can access it
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
 
           # Fetch all history for all tags and branches
