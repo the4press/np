@@ -55,7 +55,7 @@ jobs:
           remote-protocol: "sftp"
           
           # Credentials for SFTP access to server using GitHub secrets
-          remote-host: "sftp://180.222.138.9"
+          remote-host: "180.222.138.9"
           remote-user: "azbftp01"
           remote-password: "Pah)P[&aC1-cWT#"
 
