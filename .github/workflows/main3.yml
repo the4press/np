@@ -1,16 +1,11 @@
-- name: P-SFTP
+  - name: SFTP uploader
   # You may pin to the exact commit or the version.
-  # uses: Luis97lol/PSFTP@aafeb8d65142f6368a8c26eba46fd8cb83b2c607
-  uses: Luis97lol/PSFTP@v1.4
+  # uses: wangyucode/sftp-upload-action@0ce8147ad8637906ceb7ebb272640ca45e4b2b31
+  uses: wangyucode/sftp-upload-action@v2.0.2
   with:
-    # Remote SFTP Host
     host: "180.222.138.9"
-    # Session Username
-    user: "azbftp01"
-    # Session Password
-    pass: "Pah)P[&aC1-cWT#"
-    # Optional hostkey if not cached
-    hostkey: # optional
-    # Path to the file that contains the psftp commands to be executed
-    scriptPath: '/main'
-          
+    port: 443
+    username: "azbftp01"
+    password: "Pah)P[&aC1-cWT#"
+    localDir: '/'
+    remoteDir: '/'
