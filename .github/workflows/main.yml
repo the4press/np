@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: 180.222.138.9
-        username: ftp1
-        password: admin@123
+        server: "180.222.138.9"
+        username: "ftp1"
+        password: "admin@123"
         port: 21
-        protocol: ftp
+        protocol: "ftp"
