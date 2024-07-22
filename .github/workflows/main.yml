@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: apps101.azizibank.af
+        server: 180.222.138.9
         username: ftp1
         password: admin@123
         port: 21
